@@ -7,9 +7,9 @@ categories: jekyll update
 
 #define introduction
 
-<p>sample_1.c</p>
+`sample_1.c`
 
-<pre><code>
+{% highlight c %}
 #include<stdio.h>
 #define M (y * y + 3 * y)
 
@@ -27,13 +27,13 @@ int main()
 
         return 0;
 }
-</pre></code>
+{% endhighlight %}
 
-###define  undef
+##define  undef
 
-<p>sample_2.c
+`sample_2.c`
 
-<pre><code>
+{% highlight c %}
 ##define PI 3.14159
 
 int main(){
@@ -46,5 +46,5 @@ int main(){
 f1(){
     /* ... */
 }
-</pre></code>
+{% endhighlight %}
 
